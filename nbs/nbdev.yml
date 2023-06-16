@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "dimas-mufid"
+  site-url: "https://dimasmufid.github.io/dimas-mufid"
+  description: "This is my personal blog to show case my learning progress into public."
+  repo-branch: main
+  repo-url: "https://github.com/dimasmufid/dimas-mufid"
