@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "whatisml.html",
+    "href": "whatisml.html",
+    "title": "Introduction to Machine Learning",
+    "section": "",
+    "text": "Welcome to the fascinating world of machine learning! In today’s digital era, where data is abundant and insights are crucial, machine learning has emerged as a revolutionary field. In this blog post, we will delve into the fundamentals of machine learning, exploring its definition, significance, applications, drawbacks, and how it operates."
+  },
+  {
+    "objectID": "whatisml.html#what-is-machine-learning",
+    "href": "whatisml.html#what-is-machine-learning",
+    "title": "Introduction to Machine Learning",
+    "section": "What is Machine Learning?",
+    "text": "What is Machine Learning?\n\n“Machine learning is the field of study that gives computers the ability to learn without being explicitly programmed.” - Arthur Samuel, 1959\n\nMachine learning, as a subset of artificial intelligence (AI), seeks to emulate the functioning of the human brain. So, what exactly is machine learning? As defined by Arthur Samuel, it involves granting computers the capacity to learn without explicit programming. This fundamental distinction sets it apart from traditional programming.\nIn traditional programming, every intricate detail and step needed to solve a problem must be explicitly defined. In contrast, with machine learning, we no longer need to specify every rule and step. Instead, machine learning algorithms learn autonomously from data, identifying patterns and making informed decisions.\nTo illustrate, consider the task of building an email spam detector: - In traditional programming, we would teach the program the characteristics of spam emails. For instance, if an email contains keywords such as “for you,” “special offer,” “discount,” or “credit card,” it would be classified as spam; otherwise, it would not. - Conversely, in the context of a spam detector employing machine learning, we need not explicitly define the rules and steps to detect spam. Machine learning algorithms learn organically from the content, timing, intensity, and various other factors associated with emails, autonomously identifying patterns indicative of spam.\nThis ability of machine learning to learn and adapt autonomously has contributed to its popularity and rapid development. Now, let’s explore how machine learning works."
+  },
+  {
+    "objectID": "whatisml.html#how-machine-learning-works",
+    "href": "whatisml.html#how-machine-learning-works",
+    "title": "Introduction to Machine Learning",
+    "section": "How Machine Learning Works?",
+    "text": "How Machine Learning Works?\n\nComparison with Traditional Programming\nTraditional Programming: - We directly provide computers with sets of rules to implement. \nMachine Learning: - We feed historical data, containing problem instances and their corresponding correct results. - The machine then formulates its own rules, which we typically refer to as models. - These models are then applied to future problems. \n\n\nExample\nFor instance, let’s consider the task of developing software that can differentiate between images of cats and chickens.\nUsing Traditional Programming: We would need to instruct the computer on the rules for identifying cats and chickens: 1. Count the number of feet. If there are two, classify it as a chicken; otherwise, it is a cat. 2. Count the number of ears. If there are two, classify it as a cat; otherwise, it is a chicken. We would also need to establish rules for fur, eyes, wings, and any other relevant factors. However, what if a photo is taken from an angle that makes it appear to have two ears, but it actually has two feet? We would need additional rules to handle each possible error scenario. Consequently, developing such software using traditional programming methods would require a considerable amount of code.\nUsing Machine Learning: In this case, we require a dataset comprising numerous photos of cats and chickens, accompanied by their corresponding labels. Similar to how we teach a child to differentiate between cats and chickens by directly showing them examples, machine learning algorithms learn by processing vast amounts of labeled data. The more examples we provide, the more accurate their identification skills become. By leveraging machine learning, the lengthy code required in traditional programming can be reduced to just a few lines. Furthermore, machine learning enables increased accuracy and reduced error rates.\nYou may wonder, how exactly does machine learning achieve this? How does it learn from historical data? Addressing these questions would necessitate a more in-depth explanation, which we can explore in a future opportunity."
+  },
+  {
+    "objectID": "whatisml.html#when-should-we-use-machine-learning",
+    "href": "whatisml.html#when-should-we-use-machine-learning",
+    "title": "Introduction to Machine Learning",
+    "section": "When Should We Use Machine Learning?",
+    "text": "When Should We Use Machine Learning?\nAccording to the renowned book “Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow” by Aurélien Géron, there are three conditions when machine learning should be used instead of traditional programming:\n\nComplexity: Machine learning is suitable for problems that would require an extensive list of rules when using traditional approaches. For example, building a chatbot capable of handling the wide array of random inputs from users would be virtually impossible to accomplish through explicit rule-based programming. Machine learning algorithms excel at tackling such challenges.\nFluctuating Environments: Consider the case of an email spam detector. Spammers continuously modify their tactics, changing keywords, spellings, and formats to evade detection. Machine learning possesses the ability to automatically update its models by incorporating new data incrementally, ensuring it remains effective in dynamic environments.\nBig Data Analysis: Machine learning proves invaluable in extracting insights from vast amounts of complex data. Analyzing buying patterns, classifying customers, and addressing similar tasks would be laborious and time-consuming without machine learning. By leveraging its capabilities, we can efficiently identify patterns within enormous datasets."
+  },
+  {
+    "objectID": "whatisml.html#conclusion",
+    "href": "whatisml.html#conclusion",
+    "title": "Introduction to Machine Learning",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nIn conclusion, machine learning is a fascinating field that empowers computers to learn and make decisions without explicit programming. It has become indispensable in today’s data-driven world, where the abundance of data and the need for insightful analysis are paramount.\nWe explored the definition of machine learning and how it differs from traditional programming. Machine learning algorithms learn from historical data, enabling them to identify patterns and make predictions or decisions. This approach offers significant advantages, such as increased accuracy, adaptability to changing environments, and efficient analysis of large datasets.\nKnowing when to use machine learning is crucial. We discussed three conditions where machine learning shines: when solving complex problems that would require an extensive list of rules in traditional programming, in fluctuating environments where rules change over time, and in scenarios that involve analyzing big data for insights.\nAs technology advances and the field of machine learning continues to evolve, its applications and impact will only expand. By understanding the fundamentals of machine learning, its capabilities, and its appropriate use cases, you can harness its power to unlock new possibilities in various domains.\nSo, step into the realm of machine learning and unleash the potential of intelligent algorithms to drive innovation, solve complex problems, and uncover valuable insights from data.\n\n\nReferences\n\nWhat is Machine Learning\nMachine Learning Course from Fast.ai\nHands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition, by Aurélien Géron"
+  },
+  {
+    "objectID": "snakegame.html",
+    "href": "snakegame.html",
+    "title": "JavaScript Project",
+    "section": "",
+    "text": "Everyone has their own reason, why they want to learning software engineering field. For me, because it is the prequisite for being Machine Learning Engineer. I inspired a lot from this post. If you want to be machine learning engineer, those post is a must read.\nOne of the programming language that is needed in software engineering field which I am also lacking, is Javascript. I have learned Javascript from CS50, which I believe one of the best programming learning resource out there.\nFor strengthen my understanding in using Javascript, absolutely it is not enough to just listening. We need to do directly interact with the language itself. If you are looking for the project to implement your Javascript language, probably building Web Based Snake Game, is a good choice.\nIn this"
+  },
+  {
+    "objectID": "snakegame.html#what-this-post-is-all-about",
+    "href": "snakegame.html#what-this-post-is-all-about",
+    "title": "JavaScript Project",
+    "section": "",
+    "text": "Everyone has their own reason, why they want to learning software engineering field. For me, because it is the prequisite for being Machine Learning Engineer. I inspired a lot from this post. If you want to be machine learning engineer, those post is a must read.\nOne of the programming language that is needed in software engineering field which I am also lacking, is Javascript. I have learned Javascript from CS50, which I believe one of the best programming learning resource out there.\nFor strengthen my understanding in using Javascript, absolutely it is not enough to just listening. We need to do directly interact with the language itself. If you are looking for the project to implement your Javascript language, probably building Web Based Snake Game, is a good choice.\nIn this"
+  },
+  {
+    "objectID": "snakegame.html#work-example",
+    "href": "snakegame.html#work-example",
+    "title": "JavaScript Project",
+    "section": "Work Example",
+    "text": "Work Example\nThis is my work. (btw, sorry with the lack of good user interface, I decide to skip that part at the moment).\nPersonally, before I start to do that project, I strongly believe that it will become a fast project. Because, c’mon, it’s just making a simple snake game. Probably it will be finishid at about 2-3 hours. But apparently, I wrong lol. Apparently, I need about 10 hours to build fron end to end. It’s far harder than I thougth before. Moreover, it has cover a lot of feature of Javascript. Therefore, I can recommend those project if you are looking for Javascript project."
+  },
+  {
+    "objectID": "snakegame.html#tips",
+    "href": "snakegame.html#tips",
+    "title": "JavaScript Project",
+    "section": "Tips",
+    "text": "Tips\n\n1. Starting with pseudocode\n\nPseudocode is reforming step by step to solve the programming problem, using your own language.\nWith building pseudocode first, you will have already finished on how to solve the problem. The rest is just about how to translate the step into the programming language syntax.\nWithout building pseudocode, you force yourself to thinking about the step to solve problem, while also thinking about the syntax. It’s very hard. Especially if you never have programming experience before.\n\n\n\n2. Small step is matters\n\nAfter building the pseudocode, you will find how complex it is. Personally, I feel overwhelm with the the problem after building the pseudocode. But believe me, it is achievable. Just do every small step, and unconsciously the problem will solved unconsciously in every step.\n\n\n\n3. Ask chatGPT for your learning assistant\n\nIf you feel stuck, you can ask for chatGPT for your assistant, especially for the syntax.\nBut don’t just copy paste the code from chatGPT. Remember, what you are doing is learning. Learning is the most matters, not the project. Therefore, if you are using chatGPT, please understand each of his code. If you can understand why chatGPT make a certain syntax, just ask him to explain it more detail. He will patiently explain it for you.\n\nThat’s all. I hope for your best in your learning journey. Goodluck!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Mufid Blog.",
+    "section": "",
+    "text": "Blog Banner\nGreetings and welcome to Mufid Blog! I’m Mufid, a passionate data scientist at a leading consultancy firm in Indonesia. With a deep love for machine learning, I have dedicated the past two years to honing my skills and knowledge in this fascinating field. This blog serves as a platform for me to share my learning journey with you and provide valuable insights and resources to assist you in your own machine learning endeavors."
+  },
+  {
+    "objectID": "index.html#join-me-on-a-journey-of-learning-and-discovery",
+    "href": "index.html#join-me-on-a-journey-of-learning-and-discovery",
+    "title": "Welcome to Mufid Blog.",
+    "section": "Join me on a Journey of Learning and Discovery",
+    "text": "Join me on a Journey of Learning and Discovery\nThrough this blog, I aim to demystify the complexities of machine learning and make it accessible to learners at all levels. Whether you are just starting out or already have some experience in the field, you’ll find a wealth of information and practical guidance here. I will cover a wide range of topics, including fundamental concepts, algorithms, real-world applications, best practices, and the latest advancements in machine learning."
+  },
+  {
+    "objectID": "index.html#connect-and-collaborate",
+    "href": "index.html#connect-and-collaborate",
+    "title": "Welcome to Mufid Blog.",
+    "section": "Connect and Collaborate",
+    "text": "Connect and Collaborate\nI value your input and welcome your suggestions, questions, and ideas. If you have any business inquiries or would like to collaborate on a project, feel free to reach out to me at dimasmufid.data@gmail.com. I’m excited to connect with like-minded individuals, industry professionals, and fellow learners who share a passion for machine learning."
+  },
+  {
+    "objectID": "index.html#lets-start-exploring",
+    "href": "index.html#lets-start-exploring",
+    "title": "Welcome to Mufid Blog.",
+    "section": "Let’s Start Exploring!",
+    "text": "Let’s Start Exploring!\nNow that you’re here, take a moment to browse through the various categories and articles on the blog. Whether you’re looking to grasp the basics, dive into advanced techniques, or discover practical applications, you’ll find a wealth of knowledge to empower your machine learning journey.\nThank you for visiting Mufid Blog. I hope this blog becomes a valuable resource for your machine learning education and inspires you to push the boundaries of what’s possible with intelligent algorithms. Together, let’s unlock the transformative potential of machine learning!"
+  }
+]
