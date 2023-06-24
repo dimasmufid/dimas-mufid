@@ -3,3 +3,4 @@ website:
     contents:
       - index.ipynb
       - 00_SnakeGame.ipynb
+      - 01_WhatIsML.ipynb
